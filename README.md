@@ -33,7 +33,3 @@ User Problems Solved:
 Competitors
 	Currently, there is no application that calculates one's health utility index. One can calculate their health index 		after hours of research and manual calculations.
 
-Flowchart for user need #1:
-	![0](https://user-images.githubusercontent.com/61308481/75021060-444a0b00-54ad-11ea-88e1-c836b64a0430.jpg)
-
-
