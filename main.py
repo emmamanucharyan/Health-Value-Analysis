@@ -17,7 +17,8 @@ while question_number < 12:
     answer = input("Please insert your answer")
     sum = sum - float(Answers[question_number][answer])
     question_number += 1
-print("Your health utility index is" sum)
+print("Your health utility index is")
+print(sum)
 
 percentile_health = 0
 if sum <= 0.43352:
