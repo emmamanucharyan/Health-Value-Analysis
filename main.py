@@ -17,7 +17,7 @@ while question_number < 12:
     answer = input("Please insert your answer")
     sum = sum - float(Answers[question_number][answer])
     question_number += 1
-print(sum)
+print("Your health utility index is" sum)
 
 percentile_health = 0
 if sum <= 0.43352:
@@ -119,6 +119,7 @@ else:
         Name_1 = str(Name)
         BMI = user_info["weight"]/user_info["height"]**2
         user_info["BMI"] = BMI
+        user_info["datetime"] = now.strftime("%Y-%m-%d %H:%M:%S")
 
         import json
         file_3 = open(Name_1,"w")
