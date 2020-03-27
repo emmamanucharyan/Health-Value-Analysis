@@ -48,7 +48,7 @@ if sum > 0.98565 and sum <= 1:
 Care = input("Would you like to see how your health is compared to money spent on healthcare, yes or no?")
 percentile_care = 0
 if Care == "no":
-    print("thank you for using this application ")
+    print("Thank you for using this application")
 else:
     healthcare = float(input("Please input your annual healthcare spendings"))
     if healthcare == 0:
@@ -113,7 +113,7 @@ else:
             #"social_class": ,
             "height": float(input("enter your height in meters")),
             "weight": float(input("enter your weight in kilograms")),
-            "chronic diseases": input("enter your chronic diseases, if you do not have any enter:none")
+            "chronic diseases": input("enter your chronic diseases, if you do not have any enter 'none'")
          }
         Name = name,"info"
         Name_1 = str(Name)
