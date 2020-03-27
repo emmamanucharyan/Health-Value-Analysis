@@ -81,7 +81,7 @@ else:
     if percentile_health < percentile_care:
         print("NOT good, your spendings on healthcare exceed your level of health")
 
-    savedata = input("would you like to save your data, yes or no")
+    savedata = input("would you like to save your data, yes or no?")
 
     import datetime
     now = datetime.datetime.now()
@@ -99,7 +99,7 @@ else:
         file_2.write(json.dumps(saved_data))
         file_2.close()
 
-    subscription = input("Do you wish to subscribe, yes or no ?")
+    subscription = input("Do you wish to subscribe, yes or no?")
     if subscription == "no":
         print("Thank you for using this application")
     else:
