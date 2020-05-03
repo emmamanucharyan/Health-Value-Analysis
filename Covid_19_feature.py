@@ -104,15 +104,12 @@ def evaluate_answer_amounts(exp, comp, y_n, symp):
     for complication in comp:
         if complication == True:
             complication_amount += 1
-    print(complication_amount)
     for y_n_question in y_n:
         if y_n_question == True:
             y_n_amount += 1
-    print(y_n_amount)
     for symptom in symp:
         if symptom == True:
             symptom_amount += 1
-    print(symptom_amount)
     return complication_amount, y_n_amount, symptom_amount
 
 
