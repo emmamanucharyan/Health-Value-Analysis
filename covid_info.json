@@ -1,0 +1,46 @@
+[
+  { "age_range": [
+    "under 18 years old",
+    "18-64",
+    "65 and older"
+  ]
+  },
+
+  {
+    "complications": [
+      "Moderate to severe asthma or chronic lung disease, cancer treatment or medicines causing immune suppression",
+      "Serious heart conditions, such as heart failure or prior heart attack",
+      "Conditions that make it harder to cough",
+      "Diabetes",
+      "Pregnancy"
+    ]
+  },
+
+  { "exposure": [
+      "Traveled internationally in the last 14 days",
+      "Virus is wide spread in your area",
+      "Exposed to anyone who had the virus",
+      "Worked or volunteered at a medical facility in the last 14 days"
+    ]
+  },
+
+  {
+    "symptoms": [
+      "Fever,chills, or sweating",
+      "Difficulty breathing(not severe)",
+      "New or worsening cough",
+      "Sore throat",
+      "Aching throughout body",
+      "Lost of taste or smell"
+    ]
+  },
+
+  {
+    "emergency_symptoms": [
+      "Sever,constant chest pain or pressure",
+      "Extreme difficulty breathing",
+      "Severe, constant lightheadedness",
+      "Serious disorientation or unresponsiveness"
+    ]
+  }
+]
